@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script src="../type.js"></script>
+    <script src="../zepto.js"></script>
+    <script src="../animate.js"></script>
+    <script src="test.js"></script>
+</head>
+<body>
+hihihi
+hihi
+<div>dddd</div>
+<div>
+    <ul>
+        <li class="hi1">1</li>
+        <li class="hi" id="li2" style="position: absolute;">
+            <a>d1</a>
+            <a>d2</a>
+
+            <div>
+                <a id="d3">d3</a>
+            </div>
+        </li>
+        <li class="hi">3</li>
+        <li class="hi">4</li>
+        <li class="hi">5</li>
+    </ul>
+</div>
+
+
+<ul>
+    <li id="test"></li>
+</ul>
+
+<select id="s" multiple="multiple" size="2">
+    <option>0</option>
+    <option>1</option>
+</select>
+
+<input type="text" id="inp" value="ddd">
+<input type="button" id="btn" value="btn">
+</body>
+<script>
+    $('ul');
+    $('ul li');
+    $('ul .hi');
+    $('#li2');
+    $('#li2').text();
+    $('#li2').html();
+
+    var btn = document.getElementById('btn');
+
+//    btn.addEventListener('click', function (event) {
+//       console.log(event);
+//    });
+</script>
+</html>
